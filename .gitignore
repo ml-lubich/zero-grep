@@ -1,0 +1,9 @@
+/target
+/dist
+/.zero-grep
+/.instant-grep
+/.instant-grep/
+/target/
+/dist/
+__pycache__/
+*.py[cod]

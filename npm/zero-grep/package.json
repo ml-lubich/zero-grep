@@ -1,0 +1,11 @@
+{
+  "name": "@ml-lubich/zero-grep",
+  "version": "0.1.0",
+  "description": "Fast Rust-powered indexed code search CLI",
+  "license": "MIT",
+  "repository": "https://github.com/ml-lubich/zero-grep",
+  "bin": { "zg": "bin/zg.js" },
+  "files": ["bin/zg.js", "scripts/install.js"],
+  "scripts": { "postinstall": "node scripts/install.js" },
+  "engines": { "node": ">=18" }
+}

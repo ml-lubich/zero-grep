@@ -1,0 +1,46 @@
+{
+  "pattern": "return",
+  "corpus": {
+    "name": "zero-grep-corpus-linux",
+    "commit": "ebb7a8dc1e74c705daffe11c2faf38ec2628f838",
+    "files": 97398,
+    "bytes": 1678604692
+  },
+  "machine": {
+    "os": "macOS-15.5-arm64-arm-64bit-Mach-O",
+    "cpu": "Apple M3 Max",
+    "memory_gb": 64.0
+  },
+  "runs": 9,
+  "index_build_ms": {},
+  "median_ms": {
+    "zero-grep": 4764.532,
+    "ripgrep": 4848.609
+  },
+  "samples_ms": {
+    "zero-grep": [
+      4967.129,
+      4654.73,
+      4602.858,
+      4877.377,
+      4603.382,
+      4753.8,
+      5091.757,
+      5074.535,
+      4764.532
+    ],
+    "ripgrep": [
+      4848.609,
+      5020.181,
+      4681.619,
+      5156.521,
+      5290.912,
+      5091.911,
+      4729.042,
+      4841.55,
+      4576.878
+    ]
+  },
+  "outputs_match": true,
+  "output_sha256": "f8403e7ae3cfc2857af13f7ca1162367096d9d940660f2b4080408aacbf05aba"
+}

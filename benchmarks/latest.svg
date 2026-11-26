@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+<title id="title">Warm search latency on Linux kernel source</title>
+<desc id="desc">Logarithmic benchmark chart on 97,398 files and 1.68 gigabytes, Apple M3 Max. Lower is faster. Nine alternating runs per query.</desc>
+<rect width="100%" height="100%" rx="18" fill="#111820"/>
+<text x="32" y="42" fill="#f5f7fa" font-family="system-ui,sans-serif" font-size="24" font-weight="700">Search latency · warm index · lower is faster</text>
+<text x="32" y="70" fill="#9ba7b4" font-family="system-ui,sans-serif" font-size="13">Linux kernel ebb7a8dc1 · 97,398 files · 1.68 GB · Apple M3 Max · 9 alternating runs</text>
+<line x1="240.0" y1="108" x2="240.0" y2="502" stroke="#28333e"/>
+<text x="240.0" y="101" text-anchor="middle" fill="#93a0ae" font-family="system-ui,sans-serif" font-size="11">1 ms</text>
+<line x1="411.0" y1="108" x2="411.0" y2="502" stroke="#28333e"/>
+<text x="411.0" y="101" text-anchor="middle" fill="#93a0ae" font-family="system-ui,sans-serif" font-size="11">10 ms</text>
+<line x1="582.0" y1="108" x2="582.0" y2="502" stroke="#28333e"/>
+<text x="582.0" y="101" text-anchor="middle" fill="#93a0ae" font-family="system-ui,sans-serif" font-size="11">100 ms</text>
+<line x1="753.0" y1="108" x2="753.0" y2="502" stroke="#28333e"/>
+<text x="753.0" y="101" text-anchor="middle" fill="#93a0ae" font-family="system-ui,sans-serif" font-size="11">1,000 ms</text>
+<line x1="924.0" y1="108" x2="924.0" y2="502" stroke="#28333e"/>
+<text x="924.0" y="101" text-anchor="middle" fill="#93a0ae" font-family="system-ui,sans-serif" font-size="11">10,000 ms</text>
+<text x="32" y="145" fill="#e8edf2" font-family="ui-monospace,monospace" font-size="14">ACPI_COMPANION</text>
+<text x="32" y="164" fill="#62d6b5" font-family="system-ui,sans-serif" font-size="11">zero-grep</text>
+<rect x="240" y="153" width="387.7" height="13" rx="6" fill="#62d6b5"/>
+<text x="634.7" y="164" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">185.1 ms</text>
+<text x="32" y="182" fill="#8b95a7" font-family="system-ui,sans-serif" font-size="11">ripgrep</text>
+<rect x="240" y="171" width="630.6" height="13" rx="6" fill="#8b95a7"/>
+<text x="877.6" y="182" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">4,870.6 ms</text>
+<text x="32" y="200" fill="#b68aff" font-family="system-ui,sans-serif" font-size="11">instant-grep</text>
+<rect x="240" y="189" width="392.8" height="13" rx="6" fill="#b68aff"/>
+<text x="639.8" y="200" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">198.3 ms</text>
+<text x="32" y="237" fill="#e8edf2" font-family="ui-monospace,monospace" font-size="14">MODULE_DEVICE_TABLE</text>
+<text x="32" y="256" fill="#62d6b5" font-family="system-ui,sans-serif" font-size="11">zero-grep</text>
+<rect x="240" y="245" width="467.1" height="13" rx="6" fill="#62d6b5"/>
+<text x="714.1" y="256" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">539.0 ms</text>
+<text x="32" y="274" fill="#8b95a7" font-family="system-ui,sans-serif" font-size="11">ripgrep</text>
+<rect x="240" y="263" width="629.4" height="13" rx="6" fill="#8b95a7"/>
+<text x="876.4" y="274" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">4,793.1 ms</text>
+<text x="32" y="292" fill="#b68aff" font-family="system-ui,sans-serif" font-size="11">instant-grep</text>
+<rect x="240" y="281" width="469.4" height="13" rx="6" fill="#b68aff"/>
+<text x="716.4" y="292" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">556.0 ms</text>
+<text x="32" y="329" fill="#e8edf2" font-family="ui-monospace,monospace" font-size="14">static\s+int\s+\w+_probe\(</text>
+<text x="32" y="348" fill="#62d6b5" font-family="system-ui,sans-serif" font-size="11">zero-grep</text>
+<rect x="240" y="337" width="474.1" height="13" rx="6" fill="#62d6b5"/>
+<text x="721.1" y="348" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">592.0 ms</text>
+<text x="32" y="366" fill="#8b95a7" font-family="system-ui,sans-serif" font-size="11">ripgrep</text>
+<rect x="240" y="355" width="636.1" height="13" rx="6" fill="#8b95a7"/>
+<text x="883.1" y="366" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">5,247.1 ms</text>
+<text x="32" y="421" fill="#e8edf2" font-family="ui-monospace,monospace" font-size="14">return</text>
+<text x="32" y="440" fill="#62d6b5" font-family="system-ui,sans-serif" font-size="11">zero-grep</text>
+<rect x="240" y="429" width="628.9" height="13" rx="6" fill="#62d6b5"/>
+<text x="875.9" y="440" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">4,764.5 ms</text>
+<text x="32" y="458" fill="#8b95a7" font-family="system-ui,sans-serif" font-size="11">ripgrep</text>
+<rect x="240" y="447" width="630.2" height="13" rx="6" fill="#8b95a7"/>
+<text x="877.2" y="458" fill="#e3e8ed" font-family="ui-monospace,monospace" font-size="11">4,848.6 ms</text>
+</svg>

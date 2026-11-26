@@ -1,0 +1,38 @@
+[package]
+name = "zero-grep"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Fast, portable code search for developers and AI agents"
+license = "MIT"
+repository = "https://github.com/ml-lubich/zero-grep"
+readme = "README.md"
+
+[[bin]]
+name = "zg"
+path = "src/main.rs"
+
+[lib]
+name = "zero_grep"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+python = ["dep:pyo3"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+ignore = "0.4"
+regex = "1"
+rayon = "1"
+memmap2 = "0.9"
+serde = { version = "1", features = ["derive"] }
+bincode = "1.3"
+regex-syntax = "0.8"
+rustc-hash = "2"
+pyo3 = { version = "0.30", optional = true, features = ["extension-module", "abi3-py39"] }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true
