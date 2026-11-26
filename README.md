@@ -9,9 +9,12 @@ On a pinned Linux kernel checkout (97,398 files, 1.68 GB) on an Apple M3 Max, wa
 ## Install
 
 ```sh
-# or install the same Rust search engine through uv
+brew install ml-lubich/tap/zero-grep
+# or use the Python package for a managed CLI
 uv tool install zero-grep
-# install directly from the public Rust source
+# or install into an active Python environment
+pip install zero-grep
+# install directly from the Rust source
 cargo install --git https://github.com/ml-lubich/zero-grep
 ```
 
