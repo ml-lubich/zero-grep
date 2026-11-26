@@ -9,12 +9,13 @@ On a pinned Linux kernel checkout (97,398 files, 1.68 GB) on an Apple M3 Max, wa
 ## Install
 
 ```sh
-cargo install zero-grep
 # or install the same Rust search engine through uv
 uv tool install zero-grep
+# install directly from the public Rust source
+cargo install --git https://github.com/ml-lubich/zero-grep
 ```
 
-Both install the short `zg` command. The uv entry point is a thin Python launcher into the same Rust engine. Install from source with `cargo install --git https://github.com/ml-lubich/zero-grep`.
+Both install the short `zg` command. The uv entry point is a thin Python launcher into the same Rust engine.
 
 ## Search
 
