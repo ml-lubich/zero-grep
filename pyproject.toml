@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "zero-grep"
-version = "0.1.0"
+version = "0.1.1"
 description = "Fast, indexed code search for large repositories"
 readme = "README.md"
 license = "MIT"
@@ -15,7 +15,7 @@ classifiers = [
   "Environment :: Console",
   "Operating System :: OS Independent",
   "Programming Language :: Rust",
-  "Topic :: Text Processing :: Search",
+  "Topic :: Text Processing :: Indexing",
 ]
 
 [project.urls]

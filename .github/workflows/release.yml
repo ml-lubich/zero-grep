@@ -55,7 +55,7 @@ jobs:
         with:
           files: dist/*
 
-  python-wheels:
+  python-distributions:
     strategy:
       matrix:
         include:
@@ -80,17 +80,3 @@ jobs:
         with:
           name: python-${{ matrix.target }}
           path: dist/*
-
-  pypi:
-    needs: python-wheels
-    runs-on: ubuntu-latest
-    environment: pypi
-    permissions:
-      id-token: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          pattern: python-*
-          merge-multiple: true
-          path: dist
-      - uses: pypa/gh-action-pypi-publish@release/v1
